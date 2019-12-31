@@ -11,66 +11,66 @@
 <?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-image: url('/Image/whitehorse.jpg'); -fx-background-size: cover" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GameMode">
-   <children>
-      <VBox layoutX="107.0" layoutY="115.0" prefHeight="372.0" prefWidth="577.0">
-         <children>
-             <CheckBox contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="78.0" prefWidth="538.0" style="-fx-text-fill: linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),        #9d4024,        #d86e3a,        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c); -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );" stylesheets="@../css/checkbox.css" text="One Player and Three Computers">
-                 <opaqueInsets>
-                     <Insets />
-                 </opaqueInsets>
-                 <VBox.margin>
-                     <Insets left="30.0" top="10.0" />
-                 </VBox.margin>
-                 <font>
-                     <Font name="System Bold" size="30.0" />
-                 </font>
-             </CheckBox>
-             <CheckBox contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="79.0" prefWidth="516.0" style="-fx-text-fill: linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),        #9d4024,        #d86e3a,        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c); -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );" stylesheets="@../css/checkbox.css" text="Two Player and Two Computers">
-                 <opaqueInsets>
-                     <Insets />
-                 </opaqueInsets>
-                 <VBox.margin>
-                     <Insets left="30.0" top="10.0" />
-                 </VBox.margin>
-                 <font>
-                     <Font name="System Bold" size="30.0" />
-                 </font>
-             </CheckBox>
-            <CheckBox contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="91.0" prefWidth="533.0" style="-fx-text-fill: linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),        #9d4024,        #d86e3a,        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c); -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );" stylesheets="@../css/checkbox.css" text="Three Player and One Computers">
-               <opaqueInsets>
-                  <Insets />
-               </opaqueInsets>
-               <VBox.margin>
-                  <Insets left="30.0" top="10.0" />
-               </VBox.margin>
-                <font>
-                    <Font name="System Bold" size="30.0" />
-                </font>
-            </CheckBox>
-             <CheckBox contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="92.0" prefWidth="542.0" style="-fx-text-fill: linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),        #9d4024,        #d86e3a,        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c); -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );" stylesheets="@../css/checkbox.css" text="Four Player and None Computers">
-                 <opaqueInsets>
-                     <Insets />
-                 </opaqueInsets>
-                 <VBox.margin>
-                     <Insets left="30.0" top="10.0" />
-                 </VBox.margin>
-                 <font>
-                     <Font name="System Bold" size="30.0" />
-                 </font>
-             </CheckBox>
-         </children>
-      </VBox>
-      <TextField layoutX="188.0" layoutY="21.0" prefHeight="44.0" prefWidth="423.0" text="Set the Number of the Player and Computer" />
-      <Button fx:id="startGame" layoutX="290.0" layoutY="516.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="220.0" onAction="#startGameClicked" stylesheets="@../css/buttons.css" text="START" />
-<!--      <Button layoutY="-6.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="55.0" text="Back" />-->
-       <Button fx:id="returnButton" focusTraversable="false" layoutY="-6.0" mnemonicParsing="false" onAction="#backButtonClicked" prefHeight="60.0" prefWidth="60.0" stylesheets="@/css/buttons.css">
-           <graphic>
-               <ImageView fitHeight="29.0" fitWidth="28.0">
-                   <image>
-                       <Image url="@/Image/back.png" />
-                   </image>
-               </ImageView>
-           </graphic>
-       </Button>
-   </children>
+    <children>
+        <VBox layoutX="107.0" layoutY="115.0" prefHeight="372.0" prefWidth="577.0">
+            <children>
+                <CheckBox contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="78.0" prefWidth="538.0" style="-fx-text-fill: linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),        #9d4024,        #d86e3a,        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c); -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );" stylesheets="@../css/checkbox.css" text="One Player and Three Computers">
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                    <VBox.margin>
+                        <Insets left="30.0" top="10.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font name="System Bold" size="30.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="79.0" prefWidth="516.0" style="-fx-text-fill: linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),        #9d4024,        #d86e3a,        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c); -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );" stylesheets="@../css/checkbox.css" text="Two Player and Two Computers">
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                    <VBox.margin>
+                        <Insets left="30.0" top="10.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font name="System Bold" size="30.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="91.0" prefWidth="533.0" style="-fx-text-fill: linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),        #9d4024,        #d86e3a,        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c); -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );" stylesheets="@../css/checkbox.css" text="Three Player and One Computers">
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                    <VBox.margin>
+                        <Insets left="30.0" top="10.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font name="System Bold" size="30.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="92.0" prefWidth="542.0" style="-fx-text-fill: linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),        #9d4024,        #d86e3a,        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c); -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );" stylesheets="@../css/checkbox.css" text="Four Player and None Computers">
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                    <VBox.margin>
+                        <Insets left="30.0" top="10.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font name="System Bold" size="30.0" />
+                    </font>
+                </CheckBox>
+            </children>
+        </VBox>
+        <TextField layoutX="188.0" layoutY="21.0" prefHeight="44.0" prefWidth="423.0" text="Set the Number of the Player and Computer" />
+        <Button fx:id="startGame" layoutX="290.0" layoutY="516.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="220.0" onAction="#startGameClicked" stylesheets="@../css/buttons.css" text="START" />
+        <!--      <Button layoutY="-6.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="55.0" text="Back" />-->
+        <Button fx:id="returnButton" focusTraversable="false" layoutY="-6.0" mnemonicParsing="false" onAction="#backButtonClicked" prefHeight="60.0" prefWidth="60.0" stylesheets="@/css/buttons.css">
+            <graphic>
+                <ImageView fitHeight="29.0" fitWidth="28.0">
+                    <image>
+                        <Image url="@/Image/back.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+    </children>
 </AnchorPane>
