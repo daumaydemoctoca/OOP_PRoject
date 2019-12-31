@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane fx:id="mainMenu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-image: url('/Image/whitehorse.jpg'); -fx-background-size: cover" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainMenuController">
+<AnchorPane fx:id="mainMenu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-image: url('/Image/Lotus-Flower-Desktop.jpg'); -fx-background-size: cover" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainMenuController">
    <children>
       <VBox layoutX="275.0" layoutY="150.0" prefHeight="355.0" prefWidth="300.0">
          <children>
@@ -28,5 +28,6 @@
             <Button fx:id="exit" mnemonicParsing="false" onAction="#exitClicked" prefHeight="60.0" prefWidth="250.0" stylesheets="@../css/buttons.css" text="Exit" />
          </children>
       </VBox>
+      <Button fx:id="testing" layoutX="116.0" layoutY="53.0" mnemonicParsing="false" text="Button" stylesheets="@../css/buttons.css" />
    </children>
 </AnchorPane>
