@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Quang is doing testing the github">
+      <change afterPath="$PROJECT_DIR$/out/production/Quang1/META-INF/Quang1.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Quang1/META-INF/Quang1.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Quang1/css/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quang1/css/buttons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Quang1/css/buttons1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Quang1/sample/MainMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quang1/sample/MainMenu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/buttons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/buttons1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/MainMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/MainMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quang1/sample/GamePlay.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quang1/sample/GamePlay.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/ExitComfirm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ExitComfirm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/GamePlay.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/GamePlay.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/GamePlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/GamePlay.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -208,6 +206,9 @@
       <workItem from="1577188179767" duration="159000" />
       <workItem from="1577518140648" duration="165000" />
       <workItem from="1577697178132" duration="33000" />
+      <workItem from="1577933618377" duration="2842000" />
+      <workItem from="1578038253517" duration="1747000" />
+      <workItem from="1578224566589" duration="3997000" />
     </task>
     <task id="LOCAL-00001" summary="Quang is doing testing the github">
       <created>1577188289157</created>
